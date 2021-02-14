@@ -2,7 +2,7 @@
 var form = document.getElementById("contact-form");
 function handleForm(event) {
   let email = {
-    to: "testemail",
+    to: "akamran@colgate.edu",
     name: event.target[0].value,
     subject: event.target[1].value,
     message: event.target[2].value,
