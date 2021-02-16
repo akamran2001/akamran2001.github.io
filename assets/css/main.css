@@ -3466,7 +3466,6 @@ body.is-preload #header.alt {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  background-image: url("../../images/banner.jpg");
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -4032,4 +4031,17 @@ body.is-menu-visible #menu .inner {
   transform: none;
   opacity: 1;
   visibility: visible;
+}
+/* Hide Scrollbar but keep scroll functionality on menu */
+body.is-menu-visible #menu .inner::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body.is-menu-visible #menu .inner {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
