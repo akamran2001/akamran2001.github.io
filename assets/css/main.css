@@ -4045,3 +4045,7 @@ body.is-menu-visible #menu .inner {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+p {
+  background-color: #040716;
+}
