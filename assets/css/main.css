@@ -2932,46 +2932,8 @@ button:disabled,
 .tiles article:nth-child(4n - 2) {
   width: 100%;
 }
-/* Clock */
-.tiles article:nth-child(6n - 5):before {
-  background-color: #082630;
-}
-/* iSyllabi */
-.tiles article:nth-child(6n - 4):before {
-  background-color: #102213;
-}
-/* Saiyan City */
-.tiles article:nth-child(6n - 3):before {
-  background-color: #69322b;
-}
-/* Bizz Trak */
-.tiles article:nth-child(6n - 2):before {
-  background-color: #4d331a;
-}
-/* Party Analysis */
-.tiles article:nth-child(6n - 1):before {
-  background: #03001e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    90deg,
-    #041e42 20%,
-    #9b1c2c 100%
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    90deg,
-    #041e42 20%,
-    #9b1c2c 100%
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-/* .tiles article:nth-child(6n):before {
-  background-color: black;
-}
-.tiles article:nth-child(8n-1):before {
-  background-color: white;
-}
-.tiles article:nth-child(8n):before {
-  background-color: red;
-} */
-*/ @media screen and (max-width: 1280px) {
+
+@media screen and (max-width: 1280px) {
   .tiles article {
     padding: 4em 3em 2em 3em;
     height: 30vh;
