@@ -4022,6 +4022,6 @@ body.is-menu-visible #menu .inner {
   scrollbar-width: none; /* Firefox */
 }
 
-p {
+article p {
   background-color: #040716;
 }
