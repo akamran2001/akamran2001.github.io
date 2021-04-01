@@ -48,3 +48,8 @@ header.major p {
 h3 a.link {
   background-color: black;
 }
+
+.centered {
+  display: grid;
+  place-items: center;
+}
