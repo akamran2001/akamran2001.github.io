@@ -1,6 +1,6 @@
 //Add daily scenic image to banner
 const banner = document.getElementById("banner");
-banner.style.backgroundImage = `url(https://source.unsplash.com/${window.innerWidth}x${window.innerHeight}/daily?scenic)`;
+banner.style.backgroundImage = `url(https://source.unsplash.com/${window.innerWidth}x${window.innerHeight}/daily?nature)`;
 
 const isyllabi_img = document.getElementById("isyllabi_img");
 isyllabi_img.src = `https://source.unsplash.com/NIpx9ZUSiZg/${window.innerWidth}x${window.innerHeight}`;
