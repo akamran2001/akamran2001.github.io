@@ -1,28 +1,3 @@
-header.major p {
-  font-size: 1em;
-}
-
-.image img {
-  opacity: 1;
-}
-
-h3 a.link {
-  background-color: black;
-}
-.card-grid p {
-  background-color: white;
-  color: black;
-  padding: 1vw;
-  margin: 1vw;
-  font-size: clamp(1vw, 1.5vw, 3vw);
-  font-weight: bold;
-}
-
-.centered {
-  display: grid;
-  place-items: center;
-}
-
 .card-grid {
   display: flex;
   flex-direction: column;
@@ -42,18 +17,16 @@ h3 a.link {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  opacity: 0.8;
 }
 
-/* .card-grid:hover {
+.card-grid:hover {
   transform: scale(1.1);
-  opacity: 1;
-} */
+}
 
 .tile-grid {
+  margin: 5rem;
   display: grid;
-  gap: 1rem;
+  gap: 5rem;
 
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-auto-rows: 500px;
