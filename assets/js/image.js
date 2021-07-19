@@ -16,3 +16,6 @@ bizztrak_img.src = `https://source.unsplash.com/R401qwThw7w/${window.innerWidth}
 
 const party_img = document.getElementById("party_img");
 party_img.src = `https://source.unsplash.com/48elRjHbXRY/${window.innerWidth}x${window.innerHeight}`;
+
+const cdf_img = document.getElementById("cdf_img");
+cdf_img.src = `https://i.insider.com/5d8e5ef06f24eb52b7495f2d?width=1136&format=jpeg`;
