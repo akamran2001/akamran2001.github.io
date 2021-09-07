@@ -4,7 +4,6 @@ fetch(
 )
   .then((response) => response.json())
   .then((data) =>
-    console.log(
       data.items.forEach((item) => {
         blogs.innerHTML += `<div class="col centered">
     <div class="card bg-dark w-100">
@@ -27,5 +26,4 @@ fetch(
     </div>
   </div>`;
       })
-    )
   );
