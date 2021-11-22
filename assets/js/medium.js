@@ -14,7 +14,7 @@ fetch(
       />
       <div class="card-body">
         <h5 class="card-title font-weight-bold">
-          <u id=${item.guid}>${item.guid=="https://medium.com/p/2323b3d9b6bf"?"Fall of the Weimar Republic":item.title}</u>
+          <u id=${item.guid}></u>
         </h5>
 
         <a
