@@ -29,4 +29,5 @@ fetch(
       })
   );
 
-
+//Give the i/p article a smaller thumbnail
+document.getElementById("https://medium.com/p/a40f2b9ee900-img").src = "https://miro.medium.com/max/1750/0*Vf9X_GeWRLzyMJRf.jpg"
