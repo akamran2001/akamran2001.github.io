@@ -5,7 +5,7 @@ fetch(
   .then((response) => response.json())
   .then((data) =>
       data.items.forEach((item) => {
-        blogs.innerHTML += `<div class="col centered">
+        blogs.innerHTML += `<div class="col">
         <div class="card bg-dark w-100">
           <img
             id="${item.guid}-img"
