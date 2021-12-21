@@ -8,6 +8,7 @@ fetch(
         blogs.innerHTML += `<div class="col centered">
     <div class="card bg-dark w-100">
       <img
+        id="${item.guid}-img"
         class="card-img-top"
         src="${item.thumbnail}"
         alt="Card image cap"
@@ -27,3 +28,5 @@ fetch(
   </div>`;
       })
   );
+
+
