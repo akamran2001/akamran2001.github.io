@@ -15,7 +15,7 @@ fetch(
           />
           <div class="card-body">
             <h5 class="card-title font-weight-bold">
-              <u id=${item.guid}>${item.guid=="https://medium.com/p/2323b3d9b6bf"?"Fall of the Weimar Republic":item.title}</u>
+              <u id=${item.guid}-title>${item.title}</u>
             </h5>
 
             <a
@@ -30,6 +30,15 @@ fetch(
       if(item.guid=="https://medium.com/p/a40f2b9ee900"){
         document.getElementById("https://medium.com/p/a40f2b9ee900-img").src = "https://miro.medium.com/max/1750/0*Vf9X_GeWRLzyMJRf.jpg"
 
+      }
+      //Give the Weimar article a different title
+      if(item.guid=="https://medium.com/p/2323b3d9b6bf"){
+        document.getElementById("https://medium.com/p/2323b3d9b6bf-title").innerText = "Fall of the Weimar Republic"
+      }
+      //Give the 2016 election article a different thumbnail and title
+      if(item.guid=="https://medium.com/p/32373fad77b2"){
+        document.getElementById("https://medium.com/p/32373fad77b2-img").src = "https://s.abcnews.com/images/Politics/RTR_Trump_clinton_debate_01_jrl_161017_16x9_1600.jpg"
+        document.getElementById("https://medium.com/p/32373fad77b2-title").innerText = "Cultural Backlash or Economic Anxiety"
       }
     }));
 
