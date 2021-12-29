@@ -14,9 +14,3 @@ h3 a.link {
   display: grid;
   place-items: center;
 }
-@media screen and (max-width: 980px){
-  #blogs{
-    max-width: 50%;
-    transform: translate(50%);
-  }
-}
