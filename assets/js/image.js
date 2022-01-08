@@ -16,3 +16,6 @@ cdf_img.src = `https://i.ytimg.com/vi_webp/qdiD78cZALY/maxresdefault.webp`;
 
 const robinhood_img = document.getElementById("robinhood_img");
 robinhood_img.src = `https://images.unsplash.com/photo-1549421263-5ec394a5ad4c`;
+
+const ttt_img = document.getElementById("tic-tac-toe_img");
+ttt_img.src = "images/ttt.png";
