@@ -157,6 +157,11 @@
   opacity: 75%;
 }
 
+/* Django Pre Color */
+.tiles article#django::before {
+  background-color: #0f3e2e;
+}
+
 /* CDF Pre Color */
 .tiles article#cdf::before {
   background-color: #9dabb1;
