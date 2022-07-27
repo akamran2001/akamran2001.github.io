@@ -21,4 +21,4 @@ const ttt_img = document.getElementById("tic-tac-toe_img");
 ttt_img.src = "images/ttt.png";
 
 const django_img = document.getElementById("django_img");
-django_img.src = `https://assets.website-files.com/5b6901669b93d7837e36dc4c/615e1104ffbf5ae592265cc7_python-django.png`;
+django_img.src = `https://croeso-i-cymru.herokuapp.com/media/images/IMG_7414.jpg`;
