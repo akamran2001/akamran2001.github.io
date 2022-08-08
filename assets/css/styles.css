@@ -14,3 +14,7 @@ h3 a.link {
   display: grid;
   place-items: center;
 }
+.card,
+.card-body {
+  min-height: 100%;
+}
